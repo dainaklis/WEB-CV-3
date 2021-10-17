@@ -1,0 +1,449 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+/* -------------------------------- BODY ---------------------------------------------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    background-color: white;
+    /* border: solid black 1px; */
+}
+
+/* ----------------------- H and P, UL, IL --------------------------------------------- */
+
+h1{
+    font-size: 90px;
+    margin: 0;
+}
+
+h2{
+    font-size: 50px;
+    /* margin: 5px; */
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+ul.show{
+    display: block;
+}
+
+li{
+    /* width: 200px; */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sub-section h2{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.information p{
+    text-align: justify;
+}
+
+.information .education-ul{
+    text-align: justify;
+    font-weight: 300;
+    font-size: 30px;
+    list-style-type: disc;
+    width: 100%;
+    display: block;
+}
+
+p{
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+
+}
+
+.project-card h3{
+    margin-top: 8%;
+}
+
+/* ---------------------- HEADER --------------------------------------------------- */
+.hero{
+    background-color: #1c1d25;
+    height: 100vh;
+    font-size: 40px;
+    color: white;
+}
+
+/* ------------------------ PADARO bruksti po zodziu ir HOVER --------------------*/
+.hero ul li a{
+    position: relative;
+}
+
+.hero ul li a::after{
+    content: "";
+    width: 0;  /* JEI 50% tai bruksnys visada */
+    height: 3px;
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    transition: width 0.3s;
+}
+
+.hero ul li a:hover::after{
+    width: 50%;
+}
+
+/* --------------------------------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li a:hover{
+    color: #d33805;
+}
+
+.logo{
+    margin: 30px;
+}
+
+.social{
+    margin: 20px;
+    font-size: 55px;
+}
+
+.social a{
+    color: white;
+}
+
+.social a i{
+    transition: 0.5s;
+}
+
+.social a i:hover{
+    color:#d33805;
+    transform: translateX(-10px);
+}
+
+.hamburger{
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 60px;
+    display: none;
+
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+
+
+/* -------------HEADER SCROL BUTTON ---------------------------------- */
+
+.scroll-btn{
+    bottom: 35px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scroll-bar span{
+    font-size: 30px;
+}
+
+.scroll-bar {
+    animation: mover 1s infinite alternate;
+
+    /* GALIMA TAIP */
+    /* animation: mover;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    
+   
+}
+
+@keyframes mover{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-20px)}
+}
+
+.scroll-btn a:hover{
+    cursor: pointer;
+    color: #d33805 ;
+}
+
+/* ------------------------------- MAIN -------------------------------------- */
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button{
+    width: 200px;
+    height: 55x;
+    border-radius: 25px;
+    background-color: coral;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    /* padding-top: 1px; */
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #d33805;
+    cursor: pointer;
+    /* transition: 1s; */
+}
+
+.button:active{
+    background: #a9a9a9;;
+    color: #808080;
+}
+
+.socials{
+    padding-bottom: 200px;
+}
+
+
+.information{
+    width: 100%;
+}
+
+
+.education-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot{
+    width: 250px;
+    border-radius: 60px;
+    
+}
+
+.headshot-container{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    transition: 0.5s;
+    
+}
+
+.headshot-container:hover{
+    transform: translateY(-10px);
+}
+
+.sec-project{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project-card{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.project-card:hover{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: 1s;
+    background-color: #1c1d25;
+    color: white;
+
+    transform: translateY(-10px);
+}
+
+
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 3%;
+    text-align: center;
+    height: 20%;
+}
+
+.subtext a:hover{
+    color: #d33805;
+    font-weight: bold;
+}
+
+.project-image{
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 80%;
+    /* border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px; */
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    background: black;
+    height: 3px;
+
+}
+
+.project-link{
+    text-decoration: none;
+    color: #d33805;
+    
+    
+}
+
+
+/* ---------------------------------FOOTER----------------------------------------------------- */
+footer{
+    /* height: 500px; */
+    background-color: #1c1d25;
+    color: white;
+    padding: 80px 80px 20px 80px;
+    text-align: center;
+
+}
+
+.footer p a:hover{
+    color: #d33805;
+}
+
+.footer button{
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.footer button .fa{
+    margin-right: 20px;
+}
+
+.footer button:hover{
+    border: 2px solid #d33805 !important;
+    background: #d33805 !important;
+    transition: 0.6s;
+}
+
+.footer hr{
+    border: none;
+    background: white;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 15px;
+}
+
+/* -------------------------------- MEDIA ------------------------------------------------------------- */
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hamburger{
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 60px;
+        display: block;
+        margin:20px;
+        align-self: flex-end;
+        
+    }
+
+    ul{
+        display: none;
+        background-color: #1c1d25;
+        margin: 0px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color:#1c1d25;
+    }
+
+    .logo::before{
+        display: none;
+    }
+
+    /* .headshot-container{
+        display: none;
+    } */
+
+    .education-ul{
+        background-color: white;
+    }
+
+    .education-name{
+        margin: 0;
+        font-weight: 300;
+        font-size: 30px;
+        display: block;
+    }
+
+    .sub-section{
+        display: flex;
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+}
