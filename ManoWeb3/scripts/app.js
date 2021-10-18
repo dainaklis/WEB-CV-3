@@ -1,4 +1,22 @@
 
+// --------------------------------------------------------------------------------------------------
+
+const hamburgerButton = document.getElementById('hamburger')
+
+const navList = document.getElementById('nav-list')
+
+function toggleButton(){
+    navList.classList.toggle('show')
+}
+
+hamburgerButton.addEventListener('click', toggleButton) 
+
+
+
+
+// ------------------------------------------------------------------------------------------------
+
+
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
