@@ -1,28 +1,7 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<?php include "header.php" ?>
 
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-
-    <link rel="stylesheet" href="styles/style.css">
-
-    <!-- IDEDAM GOOGLE FONTS STYLES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-
-
-    <title>Portfolio WebSite 3</title>
-
-</head>
-
-
-
-<body>
-
+<!----------------------------------------------------------- LIKO VISAS MAIN BODY ------------------------------------------->
     <header class="header">
         <section class="hero">
 
@@ -117,7 +96,7 @@
                     <h3>I learned Unity myself</h3>
                     <p class="subtext">Deepen C # knowledge with small projects. Unity games on Android and PC.</p>
                     <hr/>
-                    <p class="subtext"><a class="project-link" target="_blank" href="https://github.com/dainaklis">View here</a></p>
+                    <p class="subtext"><a class="project-link" target="_blank" href="https://github.com/dainaklis/2D-Shooter-Zombie">View here</a></p>
                 </div>
                 <div class="project-card">
                     <img class="project-image" src="images/nproject2.jpg" alt="">
@@ -130,9 +109,9 @@
                 <div class="project-card">
                     <img class="project-image" src="images/project4.jpg" alt="">
                     <h3>HTML and CSS</h3>
-                    <p class="subtext">I create various a website with HTML and CSS.</p>
+                    <p class="subtext">I have created various websites with HTML, CSS. You can see them here.</p>
                     <hr/>
-                    <p class="subtext"><a class="project-link" target="_blank" href="https://github.com/dainaklis">View here</a></p>
+                    <p class="subtext"><a class="project-link" target="_self" href="projects.php">View here</a></p>
                 </div>
 
                 <div class="project-card">
@@ -140,37 +119,14 @@
                     <h3>PySpark</h3>
                     <p class="subtext">I analyzed large amounts of data with the PySpark program.</p>
                     <hr/>
-                    <p class="subtext"><a class="project-link" target="_blank" href="https://github.com/dainaklis">View here</a></p>
+                    <p class="subtext"><a class="project-link" target="_blank" href="https://github.com/dainaklis/PySpark">View here</a></p>
                 </div>
 
             </div>
         </section>
     </main>
 
-    <footer class="footer" id="contacts">
-
-        <h2>Contact me</h2>
-        <p>8-687-23-733</p>
-        <p><a href="https://accounts.google.com" target="_blank" >dainaklis@gmail.com</a></p>
-
-        <button type="button" class="btn btn-primary"><a href="download.php?path=cv/Dainius_Karpavičius.pdf" target="_blank"><i class="fa fa-download"></i>Download CV</a></button>   
-        
-        <hr>
-
-        <p class="copyright">© 2020 - 2021  Dainius Karpavičius</p>
-
-
-    </footer>
-    
-
-    <script src="scripts/app.js"></script>
-
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-</body>
-
-
-</html>
+<?php include "footer.php" ?>   
 
 
 

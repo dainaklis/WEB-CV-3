@@ -1,0 +1,47 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container{
+    background-color: salmon;
+    height: 100vh;
+    width: 100%;
+}
+
+.logo i{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.logo i:hover{
+    color: blue;
+}
+
+/* -------------------------------------- */
+
+.flexcontainer{
+    display: flex;
+    
+    height: 300px;
+}
+
+.flexcontainer .rov .textas{
+    height: 100px;
+    width: 100px;
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: blue;
+}
