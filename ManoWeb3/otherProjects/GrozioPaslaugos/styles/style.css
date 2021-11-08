@@ -1,0 +1,572 @@
+    /* Bendras stilius: */
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* DainiusLyderis stiliaus kodas: */
+
+.index {
+    position: relative;
+}
+
+.indexInside {
+    position: relative;
+    /* height: 570px; */
+    width: 300px;
+    margin-left: 5%;
+    padding-top: 10%;
+    min-height: calc(100vh - 64px - 120px);
+}
+
+.sentencija {
+    margin-top: 0px;
+    color: whitesmoke;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.sentencija2 {
+    margin-top: 0px;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: larger;
+}
+
+.indexInside h1 {
+    margin-top: 0px;
+}
+
+.fonas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-image:url(https://picsum.photos/id/1022/800/800);  */
+    background-image: url(../images/fonasIndex.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* .nav-wrapper {
+    
+} */
+
+nav .nav-wrapper {
+    width: 100%;
+    background-color: black;
+}
+
+nav ul a:hover {
+    /* background-color:black; */
+    background-color: rgb(44, 44, 44);
+}
+
+nav ul li:hover {
+    /* background-color: black; */
+    background-color: rgb(44, 44, 44);
+}
+
+nav .brand-logo {
+    display: block;
+    left: 4%;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: unset;
+    text-align: center;
+    letter-spacing: .5px;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.btn:hover {
+    background-color: black;
+    /* background-color: rgb(44, 44, 44); */
+}
+
+body nav .nav-wrapper .dropdown-trigger {
+    text-transform: unset;
+    background-color: transparent;
+    text-align: center;
+    letter-spacing: 0px;
+    margin: 0px;
+}
+.extrawidth{
+    width: 120px !important;
+}
+.dropdown-content {
+    /* width: 120px;
+    min-width: 120px; */
+    background-color: black;
+    top: 25px !important;
+}
+
+#dropdown2.dropdown-content{
+
+    background-color: #d1d1d1;;
+    
+}
+
+#dropdown2 li a{
+    margin-left: 26%;
+    color: black;
+    background-color: #d1d1d1;;
+    padding-left: 9%;
+
+}
+
+#dropdown2 li{
+    margin: 0px;
+}
+
+#dropdown2 li a:hover{
+    color: blue;
+}
+
+.dropdown-content li a {
+    color: white;
+    padding: 0px;
+}
+
+
+.dropdown-content li {
+    margin-bottom: 11%;
+    min-height: 0px;
+}
+
+
+
+.sidenav {
+    background-color: #e0e0e0;
+    width: 200px;
+}
+
+.sidenav li>a {
+    color: black;
+}
+
+.sidenav a:hover {
+    background-color: salmon;
+}
+
+.sidenav li>a>i.material-icons {
+    margin-right: 10px;
+    margin-left: -30px;
+}
+
+.sidenav .dropdown-trigger {
+    text-transform: unset;
+    background-color: unset;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-left: -36%;
+}
+
+.footer {
+    background-color: black;
+}
+
+.kontaktai {
+    color: white;
+}
+
+.sekiteMus p{
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: -1%;
+    padding-top: 2%;
+}
+
+.kontaktaLink{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer .kontaktai img {
+    width: 40px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer .kontaktai h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mainContact {
+    width: 100%;
+    display: flex;
+}
+
+.contacts {
+    width: 50%;
+}
+
+.mainContact .maps {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.mainContact .maps iframe {
+    width: 100%;
+    height: 450px;
+}
+
+.parasyk {
+    text-align: center;
+}
+
+.parasyk .forma input {
+    height: 40px;
+    width: 80%;
+    margin: 1%;
+    border: 1px solid;
+    padding: 5px;
+    box-sizing: content-box;
+    font-size: 16px;
+}
+
+.parasyk .forma select{
+    width: 80%;
+    height: 40px;
+    margin: 1%;
+    border: 1px solid;
+    padding: 5px;
+    box-sizing: content-box;
+    font-size: 16px;
+    margin-left: 9.5%;
+}
+
+.parasyk .forma textarea {
+    height: 80px;
+    width: 80%;
+    margin: 1%;
+    border: 1px solid;
+    padding: 5px;
+    line-height: 30px;
+    box-sizing: content-box;
+    font-size: 16px;
+}
+
+.parasyk .forma button {
+    height: 40px;
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.parasyk .forma button:hover {
+    background-color: white;
+}
+
+.sukuosena {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sukuosena .image{
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 50%;
+    margin: 20px;
+}
+
+.sukuosena img{
+    width: 231px;
+    height: 320px;
+}
+
+.depiliacija{
+    margin-left: 30%;
+}
+
+.manikiuras{
+    display: flex;
+    flex-flow: unset;
+    justify-content: space-between;
+}
+.manikiuras img{
+    width: 100%;
+}
+
+.kainorastisColumm{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+.paslauguH1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.paslauguP {
+    text-align: justify;
+    text-indent: 30px;
+    font-style: italic;
+}
+
+.hoverP{
+    text-align: justify;
+    font-style: italic;
+    
+}
+
+.hoverP:hover{
+
+    /* font-size: 200%; */
+    color: red;  
+    font-style: italic;
+   
+}
+
+.kainorastisH4{
+    font-style: italic;
+
+}
+
+.kontaktuH1{
+    font-size: 50px;
+}
+
+.contactsH3{
+    font-style: italic;
+
+}
+
+.contactsP{
+    font-style: italic;
+}
+
+.atsiliepimuH6{
+    font-weight: bold;
+}
+
+
+/* Mobili versija */
+
+@media (max-width: 993px) {
+    .mainContact {
+        display: contents;
+    }
+    .contacts {
+        width: 90%;
+        text-align: center;
+    }
+    .mainContact .maps {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    nav .brand-logo {
+        display: contents;
+    }
+
+    .parasyk .forma select {
+        margin-left: 8%;
+    }
+
+    .sukuosena {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+
+    .sukuosena img{
+        width: 100%;
+        height: 1%;
+    }
+
+    .manikiuras{
+        display: contents;
+    }
+
+    .makiazai {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px !important;
+    }
+
+    .row .col.s12 {
+        margin-top: 10%;
+    }
+
+    .depiliacija {
+         margin-left: 0;
+    }
+
+    .nuotraukos4 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin-top: 0px; 
+        margin-bottom: 0px; 
+        flex-wrap: wrap;
+    }
+
+    .nuotraukos4 .eachPhoto img {
+        width: 100%;
+        height: 85%;
+    }
+
+
+    #seven {
+        min-width: 80%;
+    }
+
+    #six {
+        min-width: 80%;
+    }
+
+    #five {
+        min-width: 80%;
+    }
+
+}
+
+
+
+/* NikitaV stiliaus kodas: */
+
+.nuotraukos4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 120px !important;
+    margin-bottom: 120px !important;
+    flex-wrap: wrap;
+}
+
+.eachPhoto img:hover {
+    filter: grayscale(100%);
+}
+
+.finalGallery img{
+    height: 200px;
+    width: 200px;
+    display: flexbox;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.finalGallery img:hover {
+    transform: scale(1.1);
+}
+
+.eachPhoto {
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.eachPhoto img {
+    height: 230px;
+    width: 230px;
+}
+
+.photoText {
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    color: whitesmoke;
+}
+
+.galerija1 {
+    margin: 10px 50px;
+}
+
+/* Edgaras stiliaus kodas: */
+
+.one {
+    border: 2px solid black;
+    border-radius: 25px;
+    background: rgb(173, 173, 172);
+    padding: 20px;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+.two {
+    border: 2px solid black;
+    border-radius: 25px;
+    background: rgb(173, 173, 172);
+    padding: 20px;
+    margin-bottom: 1.5em;
+    margin-right: 1.5em;
+}
+
+#three {
+    border: 2px solid black;
+    border-radius: 25px;
+    background: rgb(173, 173, 172);
+    padding: 20px;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+}
+
+#four {
+    border: 2px solid black;
+    border-radius: 25px;
+    background: rgb(173, 173, 172);
+    padding: 20px;
+    margin-bottom: 1.5em;
+}
+
+
+/* /* input[type=text] {
+    width: 50%;
+    padding: 6px 10px;
+    margin: 4px 0;
+ } */
+
+#five {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#six {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#seven {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.makiazai {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
