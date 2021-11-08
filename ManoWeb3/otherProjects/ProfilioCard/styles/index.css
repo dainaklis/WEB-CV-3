@@ -1,0 +1,175 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: lightgray;
+}
+
+
+.card{
+    position: relative;
+    height: 460px;
+    width: 400px;
+    background-color: #ecf0f1;
+    margin: 60px auto;
+
+    box-shadow: 0 15px 35px rgb(0, 0, 0, 0.2);
+
+}
+
+.header{
+    position: absolute;
+    height: 217px;
+    width: 400px;
+    left: 0;
+    right: 0;
+    top: 0;
+    /* background-image: linear-gradient(to right, #1dd1a1, #1abc9c); */
+    background-color: #1c1d25;
+
+}
+
+.header img{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    left: 10px;
+    top: 40px;
+}
+
+.header h3{
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    top: 50px;
+    left: 40%;
+}
+
+.header p{
+    position: absolute;
+    font-family: sans-serif;
+    color: rgb(236, 233, 233);
+    font-size: 15px;
+    top: 90px;
+    left: 40%;
+}
+
+.body{
+    position: absolute;
+    height: 126px;
+    left: 5px;
+    right: 5px;
+    margin-top: 60%;
+
+    display: flex;
+}
+
+.body ul{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
+
+.body ul li{
+    position: absolute;
+    list-style: none;
+    display: block;
+    height: 40px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.body ul li p, h3{
+    position: absolute;
+}
+
+.body ul li h3{
+    top: 5px;
+    right: 5%;
+    color: #576574;
+}
+
+.body ul li p{
+    top: 10px;
+    left: 280px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #576574;
+}
+
+.body ul li i{
+    left: 5%;
+    top: 7px;
+    color:#576574;
+    font-size: 26px;
+    position: absolute;
+}
+
+.body ul li a{
+    color:#576574 ;
+}
+
+.body ul li:nth-child(1){
+    top: -15px;
+}
+.body ul li:nth-child(2){
+    top: 45px;
+}
+.body ul li:nth-child(3){
+    top: 105px;
+}
+
+
+
+.footer{
+    position: absolute;
+    height: 80px;
+    top: 84%;
+    left: 0;
+    right: 0;
+    /* background-image: linear-gradient(to right, #e2e1e1, #ecf0f1); */
+    background-color: #1c1d25;
+}
+
+
+.footer ul{
+    position: absolute;
+    left: 5%;
+    top: 20px;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+.footer ul li i{
+    font-size: 30px;
+    color: #7f8c8d;
+    transition: all 0.3s ease-in;
+}
+
+.footer ul li:hover i{
+    transform: scale(0.9);
+    color: coral;
+    cursor: pointer;
+    border-bottom: 2px solid coral;
+}
+

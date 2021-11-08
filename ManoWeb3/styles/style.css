@@ -83,6 +83,9 @@ p{
     height: 100vh;
     font-size: 40px;
     color: white;
+
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 /* ------------------------ PADARO bruksti po zodziu ir HOVER --------------------*/
@@ -118,6 +121,13 @@ nav li a:hover{
 
 .logo{
     margin: 30px;
+    
+}
+
+.hero nav .logo{
+    font-size: 40px !important;
+    margin: 10px !important;
+    padding: 0;
 }
 
 .social{
@@ -156,7 +166,8 @@ nav li a:hover{
 /* -------------HEADER SCROL BUTTON ---------------------------------- */
 
 .scroll-btn{
-    bottom: 35px;
+    /* bottom: 35px; */
+    bottom: 10px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -176,6 +187,11 @@ nav li a:hover{
     animation-direction: alternate; */
     
    
+}
+
+.scroll-btn .scroll-bar .rodykle{
+    font-size: 40px;
+    font-weight: 900;
 }
 
 @keyframes mover{
@@ -410,6 +426,23 @@ footer{
         
     }
 
+    .hamburger i{
+        margin: 20px;
+        font-size: 90px;
+    }
+    
+    .hamburger .menu{
+        font-size: 90px;
+        transition: 0.5s;
+    }
+
+    .header .hero .hamburger .close{
+        font-size: 90px;
+        display: none;
+        transition: 0.5s;
+    }
+    
+
     ul{
         display: none;
         background-color: #1c1d25;
@@ -422,8 +455,20 @@ footer{
         background-color:#1c1d25;
     }
 
-    .logo::before{
+    nav ul li{
+        margin-top: 15px;
+    }
+
+    nav ul li a{
+        font-size: 40px;
+    }
+
+    /* .logo::before{
         display: none;
+    } */
+
+    .logo{
+        display: none !important;
     }
 
     /* .headshot-container{
@@ -446,4 +491,6 @@ footer{
         flex-flow: column-reverse;
         align-items: center;
     }
+
+
 }

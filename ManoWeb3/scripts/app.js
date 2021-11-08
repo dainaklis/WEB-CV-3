@@ -27,9 +27,28 @@ window.onclick = function(event) {
       var i;
       for (i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
+        if (openDropdown.classList.contains('show')) 
+        {
           openDropdown.classList.remove('show');
         }
       }
     }
   }
+
+
+// -----------------------------------------------------------------------------------------------
+
+
+var disablemenu = document.getElementById("disable");
+var enablemenu = document.getElementById("enable");
+
+
+function disableMenu(){
+  disablemenu.style.display = "none";
+  enablemenu.style.display = "flex";
+}
+
+function enableMenu(){
+  disablemenu.style.display = "flex";
+  enablemenu.style.display = "none";
+}

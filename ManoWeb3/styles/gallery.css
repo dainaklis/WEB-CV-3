@@ -1,0 +1,155 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: gray;
+}
+
+.disableGallery span{
+    position: absolute;
+    top: 50%;
+    left:4%;
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+    cursor: pointer;
+    opacity: 0.2;
+
+    transition: 0.5s;
+}
+
+.enableGallery span{
+    position: absolute;
+    top: 50%;
+    left:4%;
+    font-size: 30px;
+    font-weight: 900;
+    color: green;
+    cursor: pointer;
+    display: none;
+    opacity: 0.2;
+
+    transition: 0.5s;
+}
+
+.enableGallery span:hover, 
+.disableGallery span:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.img-gallery{
+    width: 80%;
+    margin: 80px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    
+}
+
+.img-gallery img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.img-gallery img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(43, 69, 240, 0.2);
+}
+
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left:0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+
+}
+
+.full-img img{
+    width: 90%;
+    max-width: 600px;
+}
+
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* ---------------------- VIDEO BACGROUND ----------------------------- */
+.back-video{
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+@media(min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: auto;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+@media only screen and (max-width: 1000px){
+    .disableGallery span {
+        position: absolute;
+        top: 2%;
+        left: 50%;
+        font-size: 30px;
+        font-weight: 900;
+        color: red;
+        cursor: pointer;
+        opacity: 0.2;
+    }
+
+    .enableGallery span{
+        position: absolute;
+        top: 2%;
+        left: 50%;
+        font-size: 30px;
+        font-weight: 900;
+        color: green;
+        cursor: pointer;
+        display: none;
+        opacity: 0.2;
+    }
+
+    .enableGallery span:hover, 
+    .disableGallery span:hover{
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}

@@ -20,35 +20,84 @@
     
     <div class="container">
         <div class="logo">
-            <a href="projects.php"><i class="fas fa-backward"></i></a>
+            <a href="index.php"><i class="fas fa-backward"></i></a>
             <a href="index.php"><i class="fas fa-home"></i></a>
 
         </div>
 
+        <h1>My work exemple</h1>
 
         <div class="flexcontainer">
-            <div class="rov">
-                <div class="textas">
-                    <p>TESTAS</p>
-                </div>
 
-                <div class="textas">
-                    <p>TESTAS</p>
-                </div>
+            
 
-                <div class="textas">
-                    <p>TESTAS</p>
-                </div>
-
-                <div class="textas">
-                    <p>TESTAS</p>
-                </div>
-                
+            <div class="row">
+                <a href="otherProjects/Eparduotuve2/index.php" target="_blank">
+                    <div class="row-list">
+                        <img src="images/eShop.jpg" alt="">
+                        <p>E Shop Example</p>
+                    </div>
+                </a>
             </div>
+            <div class="row">
+                <a href="gallery.php" target="_blank">
+                    <div class="row-list">
+                        <img src="images/gallery.jpg" alt="">
+                        <p>Gallery Example</p>
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <a href="otherProjects/ManoWeb2/index.php" target="_blank">
+                    <div class="row-list">
+                        <img src="images/cv.jpg" alt="">
+                        <p>CV Example</p>
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <a href="otherProjects/ProfilioCard/card2.php" target="_blank">
+                    <div class="row-list">
+                        <img src="images/cv.jpg" alt="">
+                        <p>Profilio Card</p>
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <a href="otherProjects/GrozioPaslaugos/index.php" target="_blank">
+                    <div class="row-list">
+                        <img src="images/hairsalon.jpg" alt="">
+                        <p>Beauty Services Web</p>
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <a href="projects.php" target="_self">
+                    <div class="row-list">
+                        <img src="images/service.jpg" alt="">
+                        <p>Our Service Example</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="row">
+                    <a href="contact.php" target="_self">
+                        <div class="row-list">
+                            <img src="images/contact2.jpg" alt="">
+                            <p>Contact Form Example</p>
+                        </div>
+                    </a>
+            </div>
+
+            
         </div>
+
+
     </div>
 
+    
 
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/bc9bcc9514.js" crossorigin="anonymous"></script>
 </body>
 </html>

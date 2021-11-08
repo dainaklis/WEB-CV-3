@@ -61,7 +61,8 @@
                         <button><i class="dropbtn fas fa-bars"></i></button>
                         <div class="dropdown-content">
                             <a href="projectslist.php">Others Projects</a>
-                            <a href="index.php#contacts">Contact</a>
+                            <!-- <a href="index.php#contacts">Contact</a> -->
+                            <a href="contact.php">Contact</a>
                             <a href="index.php"><i class="fas fa-home"></i></a>
                         </div>
                     </div>
@@ -147,7 +148,7 @@
 
     <script src="scripts/app.js"></script>
 
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bc9bcc9514.js" crossorigin="anonymous"></script>
 
 </body>
 
