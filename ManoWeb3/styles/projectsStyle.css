@@ -281,6 +281,11 @@ body{
     transition: 1s;
 }
 
+.row .service:active{
+    box-shadow: none;
+    transform: scale(0.9);
+}
+
 .service:hover i{
     color: rgb(250, 112, 0);
 }

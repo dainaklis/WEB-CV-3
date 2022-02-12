@@ -119,10 +119,10 @@
 
                 <div class="project-card">
                     <img class="project-image" src="images/nproject2.jpg" alt="">
-                    <h3>First WEB „Pokalbis Gydo“</h3>
-                    <p class="subtext">Created the first web page with HTML, CSS and posted online.</p>
+                    <h3>Python</h3>
+                    <p class="subtext">I am learning a Python programming language.</p>
                     <hr/>
-                    <p class="subtext"><a class="project-link" target="_blank" href="https://pokalbisgydo.lt/">View here</a></p>
+                    <p class="subtext"><a class="project-link" target="_blank" href="https://github.com/dainaklis/Python">View here</a></p>
                 </div>
 
                 <div class="project-card">

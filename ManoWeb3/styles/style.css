@@ -413,6 +413,12 @@ footer{
     .project-container{
         display: flex;
         flex-wrap: wrap;
+
+        /* TEST */
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .hamburger{
@@ -492,5 +498,26 @@ footer{
         align-items: center;
     }
 
+    .sub-section h2{
+        text-align: center;
+    }
 
+
+    /* --TESTAS */
+    .project-card{
+        width: 80%;
+        height:auto;
+    }
+
+    .project-card h3{
+        font-size: 40px;
+    }
+
+    .subtext{
+        font-size: 30px;
+        font-weight: 300;
+        margin: 3%;
+        text-align: center;
+        height: 20%;
+    }
 }
